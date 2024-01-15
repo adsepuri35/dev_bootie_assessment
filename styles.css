@@ -27,11 +27,27 @@ body {
   text-align: center;
   font-size: 30px;
   color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
 }
 
 #description {
   padding-top: 1vh;
   color: white;
+  font-size: large;
+}
+
+#carousel-section {
+  display: inline-flex;
+}
+
+#carousel-desc {
+  padding-left: 2px;
+  color: white;
+  font-size: small;
+  
+  -ms-transform: translate(-0%, -0%);
+  transform: translate(-0%, 50%);
 }
 
 *, *::before, *::after {

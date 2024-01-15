@@ -10,24 +10,27 @@
 <body>
     <div class="my-card">
         <p id="intro">Hi, I'm Advait Sepuri!</p>
-        <section aria-label="Newest Photos">
-            <div class="carousel" data-carousel>
-              <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-              <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-              <ul data-slides>
-                <li class="slide" data-active>
-                  <img src="img/newYork.jpg" alt="Smiling in New York">
-                </li>
-                <li class="slide">
-                  <img src="img/sombrero.jpg" alt="Birthday Sombrero">
-                </li>
-                <li class="slide">
-                  <img src="img/car.jpg" alt="Hot Wheels too Hot">
-                </li>
-              </ul>
-            </div>
+        <section id="carousel-section">
+          <section aria-label="Newest Photos">
+              <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                <ul data-slides>
+                  <li class="slide" data-active>
+                    <img src="img/newYork.jpg" alt="Smiling in New York">
+                  </li>
+                  <li class="slide">
+                    <img src="img/sombrero.jpg" alt="Birthday Sombrero">
+                  </li>
+                  <li class="slide">
+                    <img src="img/car.jpg" alt="Hot Wheels too Hot">
+                  </li>
+                </ul>
+              </div>
+          </section>
+          <p id="carousel-desc"> <-- Click here to see more of me!</p>
         </section>
-        <p id="description">I'm a 1st-year CS major from Manalapan, New Jersey.</p>
+        <p id="description">I'm a 1st-year CS major from Manalapan, New Jersey. My hobbies include Brazilian Jiu-Jitsu, reading manga, and spending time with family and friends. For my Eagle Project, I built picnic tables and benches in Monmouth Battlefield. I also love FinTech! I created a 501(c)(3) called Fintectual where I hosted hackathons and workshops for students potentially interested in a FinTech career. I'm looking to the Bits of Good Developer Bootcamp as an opportunity to brush up on my web-dev skills and learn NextJS and ExpressJS!</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
